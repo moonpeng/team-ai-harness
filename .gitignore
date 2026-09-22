@@ -13,12 +13,15 @@
 *.swo
 *~
 
-# ===== 本地环境变量（env/ 目录只保留 .gitkeep）=====
+# ===== 本地环境变量 =====
+# 注意：env/env.yaml 是 teamai 的团队变量清单，必须提交到团队仓库，
+# 否则 `teamai push/pull` 的 env 同步会失效（值以明文共享，仓库须为私有）。
 .env
 .env.*
 !.env.example
 env/*
 !env/.gitkeep
+!env/env.yaml
 !env/*.example
 
 # ===== TeamAI 本地产物 =====
