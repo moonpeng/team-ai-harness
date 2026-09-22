@@ -1,0 +1,7 @@
+# 正确：mcp/mcp.yaml
+servers:
+  - name: codegraph
+    description: 代码结构图谱
+    transport: stdio          # stdio | http | sse
+    command: codegraph
+    args: ["serve", "--mcp"]
