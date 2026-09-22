@@ -1,0 +1,62 @@
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ===== 编辑器 / IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== 本地环境变量（env/ 目录只保留 .gitkeep）=====
+.env
+.env.*
+!.env.example
+env/*
+!env/.gitkeep
+!env/*.example
+
+# ===== TeamAI 本地产物 =====
+.teamai/
+
+# ===== 日志 / 临时文件 =====
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# ===== 依赖与构建产物 =====
+node_modules/
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ===== Java =====
+target/
+*.class
+
+# ===== 密钥（切勿提交）=====
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.yaml
+secrets.yml
