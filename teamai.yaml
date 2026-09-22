@@ -1,4 +1,4 @@
-team: my-team
+team: team for wupeng
 description: TeamAI shared resources
 repo: https://github.com/moonpeng/team-ai-harness.git
 provider: github
