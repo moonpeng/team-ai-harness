@@ -1,15 +1,15 @@
 username: moonpeng
-updatedAt: 2026-09-23T03:03:49.229Z
+updatedAt: 2026-09-23T03:13:10.090Z
 skills:
   lark-calendar:
     count: 1
     lastUsed: 2026-09-23T00:09:43.132Z
 interventions:
-  sessions: 1
+  sessions: 2
   interrupt: 0
   toolReject: 0
   correction: 0
-prompts: 1
+prompts: 3
 tokens:
   input: 0
   output: 0
