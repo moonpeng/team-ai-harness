@@ -1,5 +1,5 @@
 username: moonpeng
-updatedAt: 2026-10-13T07:00:31.061Z
+updatedAt: 2026-10-13T07:05:30.418Z
 skills:
   lark-calendar:
     count: 1
@@ -9,9 +9,20 @@ interventions:
   interrupt: 0
   toolReject: 0
   correction: 0
-prompts: 9
+prompts: 10
 tokens:
-  input: 0
-  output: 0
-  cacheRead: 0
+  input: 47036
+  output: 1000
+  cacheRead: 467328
   cacheCreation: 0
+daily:
+  2026-10-13:
+    sessionsEnded: 1
+    sessionsSucceeded: 1
+    promptTurns: 2
+    durationMs: 268056
+    sessionsCorrected: 0
+    pricedRequests: 0
+    costMicros: 0
+    cacheReadTokens: 467328
+    cacheEligibleInputTokens: 514364
